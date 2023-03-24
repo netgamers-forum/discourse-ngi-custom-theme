@@ -1,0 +1,383 @@
+/* Sizing */
+
+ :root {
+     --d-max-width: 1920px;
+     --topic-body-width: 1470px;
+     --font-heritage: 12px verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif;
+     --font-family-classic: verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif;
+     --font-family-alt: tahoma,verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif !important;
+     --heading-font-family: verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif;
+}
+/* Fonts */
+
+html {
+    font-family: var(--font-family-classic);
+    font-size: 0.9rem;
+}
+
+ .alert.alert-info, #whos-online span, .category-list .topics, .container.posts .timeline-container, #topic-footer-buttons .pinned-button .reason .text, #topic-footer-buttons .topic-notifications-button .reason .text, .select-kit .select-kit-row {
+     font-family: var(--font-family-alt);
+     font-size: var(--font-down-1);
+     font-weight: bold;
+     text-transform: Capitalize;
+}
+ .btn, .select-kit .select-kit-header, .nav-pills>li>a, .nav-pills>li button, nav.post-controls .actions button, .nav-stacked a {
+     font-family: var(--font-family-alt);
+     font-weight: bold;
+     font-size: var(--font-down-2);
+     text-transform: Capitalize;
+     border: 1px solid #1f242a;
+}
+.topic-list-bottom .footer-message * {
+    font-family: var(--font-family-classic);
+    font-size: var(--font-down-1);
+    font-weight: bold;
+}
+/* Colori */
+ :root {
+     --primary-medium: #cccccc;
+     --new-lightgrey: #555d6a;
+     --new-midgrey: #363c44;
+     --new-darkgrey: #3d444e;
+}
+ .discourse-no-touch .btn-danger:hover, .discourse-no-touch .json-editor-btn-delete:hover, .discourse-no-touch .btn-danger.btn-hover, .discourse-no-touch .btn-hover.json-editor-btn-delete {
+     color: white;
+}
+
+.admin-controls .nav-pills>li a.active {
+    color: var(--secondary) !important;
+}
+
+.admin-customize .themes-list-header .tab.active, .nav-stacked a.active, .admin-customize .current-style .edit-main-nav .nav-pills>li a.active {
+    color: var(--primary) !important;
+}
+
+ .topic-body .contents .cooked a {
+     text-decoration: underline;
+}
+ a:visited {
+     color: #ccc;
+}
+ a:hover, a:active, body_ahover {
+     color: #ff0 !important;
+}
+ .btn-primary {
+     background: #252628;
+     color: white;
+}
+ .category-list.with-topics .category {
+     border-left: 2px solid;
+}
+ .alert.alert-error {
+     background: var(--highlight);
+}
+ nav.post-controls .actions button.create .d-icon {
+     color:var(--highlight);
+}
+
+.topic-body hr {
+    border-top-color: var(--primary-50);
+}
+
+.user-menu.revamped .menu-tabs-container {
+    padding-top: 0;
+}
+
+.user-menu.revamped .tabs-list .btn {
+    font-size: var(--font-0);
+    border: none;
+}
+
+.user-menu.revamped .bottom-tabs {
+    border-top: none;
+}
+
+.user-menu.revamped #quick-access-profile .profile-tab-btn {
+    border: none;
+}
+
+.user-menu.revamped .tabs-list .btn.active, 
+.user-menu.revamped .quick-access-panel li:focus-within, 
+.user-menu .quick-access-panel li:hover {
+    background-color: var(--header_background) !important;
+}
+
+.user-menu.revamped .tabs-list .btn .d-icon {
+    color: var(--highlight);
+}
+
+.user-menu.revamped .tabs-list .btn:hover {
+    background-color: var(--primary-50);
+}
+
+.topic-list-item.unseen-topic, .topic-list-item.unread-posts {
+    background-color: var(--primary-low-mid-or-secondary-high);
+}
+
+.topic-list-item.pinned, .topic-list-item.closed {
+    background-color: var(--new-darkgrey);
+}
+
+.new-user-wrapper .user-navigation .nav-pills li a.active {
+    background: var(--primary-50);
+}
+
+.open .grippie {
+    background: var(--danger);
+}
+
+.d-editor-textarea-wrapper {
+    border-color: var(--highlight-bg);
+    margin: -1px;
+}
+
+.d-editor-button-bar .btn {
+    border-color: transparent;
+}
+
+.sidebar-footer-wrapper .sidebar-footer-container:before, .sidebar-footer-wrapper .sidebar-footer-container {
+    background: transparent;
+    border-top: none;
+}
+
+/* UX */
+
+ .custom-header-links .headerLink a {
+     font-family: tahoma,verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif !important;
+     font-weight: 700;
+     font-size: 0.8rem;
+     color:var(--highlight);;
+}
+ .categories-list #list-area .contents {
+}
+ .category-list .featured-topic {
+     margin-top: 3px;
+}
+ .category-list .featured-topic .topic-post-badges .badge.unread-posts, .category-list .featured-topic .title {
+     font-size: var(--font-down-2);
+}
+ .category-list .parent-category .category-name {
+     color: rgb(255, 0, 0);
+     font-size: 14px;
+}
+ .category-list .category-text-title {
+     text-decoration: underline;
+}
+ .subcategory-list .parent-category .category-text-title {
+     text-decoration: none !important;
+}
+
+ .category-list-item h3, .subcategory-list-item h3, .category-list-item .category-description td, .subcategory-list-item .category-description td {
+     font-family: var(--font-family-classic);
+     font-size: var(--font-down-1);
+}
+
+ #whos-online {
+     font-family: var(--font-family-classic);
+     font-size: var(--font-down-1);
+     font-weight: bold;
+     span {
+         margin-right: 10px;
+    }
+}
+ #whos-online a img {
+     border-radius: 100px;
+}
+
+.modal-footer .btn {
+    color: var(--primary) !important;
+}
+
+/* Header */
+ .d-header {
+     background-color: rgba(25,25,25,0.7);
+     backdrop-filter: blur(10px);
+}
+ .d-header #site-logo {
+     padding-top: 1em;
+     padding-bottom: 1em;
+}
+ .extra-info-wrapper .title-wrapper .header-title {
+     margin-bottom: 10px;
+}
+/* Forum Index */
+ .category-list tbody .category h3, .category-list tbody .category h4 {
+     font-size: var(--font-down-1);
+}
+ .categories-list .category .category-description {
+     font-size: var(--font-down-1);
+     color: var(--primary);
+}
+ .category-list tbody tr {
+     background-color: var(--new-lightgrey);
+}
+ .category-list.subcategories-with-subcategories tbody, .category-list.subcategories-with-subcategories tr, .category-list.subcategories-with-subcategories td {
+     border: none !important;
+     border-top: none !important;
+}
+ .category-list.subcategories-with-subcategories tbody tr {
+     background-color: #3f4754;
+}
+ .timeline-container .topic-timeline .timeline-handle {
+     background-color: var(--highlight);
+}
+ .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg, .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
+     border: 1px solid black;
+     box-shadow: 2px 2px 0 #30353f, inset 2px 2px 0 rgba(255,255,255,0.3);
+}
+ .category-list.with-topics .category {
+     border-color: transparent;
+}
+ .category-list th, .table-heading {
+     font-family: var(--font-family-classic);
+     font-size: var(--font-down-2);
+}
+/* Forum Thread List */
+ .topic-list-body {
+     background-color: var(--new-lightgrey);
+}
+ .topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title {
+     color: #fff;
+     text-decoration: underline;
+     font-family: var(--font-family-classic);
+     font-weight: normal;
+}
+ .topic-list-item.unseen-topic .topic-list-data a.title:not(.badge-notification), .latest-topic-list-item.unseen-topic a.title:not(.badge-notification), .category-topic-link.unseen-topic a.title:not(.badge-notification) {
+     font-weight: bold;
+}
+ .topic-list .topic-list-data {
+     padding: 5px;
+}
+ .topic-list-main-link, .topic-list .main-link, .latest-topic-list-item .main-link {
+     font-weight: bold;
+     font-size: var(--font-down-1);
+}
+ .topic-list .topic-list-data {
+     font-weight: bold;
+     font-size: var(--font-down-1);
+}
+ .topic-list .badge-notification:hover {
+     color: var(--primary) !important;
+     background: var(--danger) !important;
+ }
+/* Forum Thread */
+
+.post-stream .gap {
+    display: none !important;
+}
+
+ .topic-post {
+     padding: 10px 0 0 0;
+}
+ .topic-body {
+     border-top: none;
+     background: #3f4754;
+     font-family: var(--font-heritage) !important;
+}
+ .topic-avatar {
+     width: auto;
+     padding-top: 0;
+     border-top: none;
+     padding-right: 10px;
+}
+ .quote .avatar {
+     display: none !important;
+}
+ aside.quote {
+     margin-bottom: 2em;
+}
+ aside.quote, aside.quote * {
+     background-color: var(--new-midgrey) !important;
+}
+ .names span {
+     font-size: var(--font-down-1);
+     text-decoration: underline;
+}
+ .post-notice.new-user {
+     display: none;
+}
+ .post-menu-area {
+     margin: auto;
+}
+/* Menu & Buttons */
+ img.avatar {
+     border-radius: 0;
+}
+ .btn .d-icon {
+     color: var(--highlight);
+}
+ .nav-pills>li a.active, .nav-pills>li button.active, .btn-danger, .json-editor-btn-delete, .btn-danger .d-icon {
+     color: var(--primary);
+}
+ .btn.no-text .d-icon, .btn.json-editor-btn-delete .d-icon {
+     color: white;
+}
+ .list-controls .combo-box .combo-box-header {
+     border-color: transparent;
+     background: var(--primary-low);
+     font-size: var(--font-down-2);
+}
+ .time-gap {
+     display: none;
+    /* (fa cagare) */
+}
+/* Banned users - Nomi rossi */
+ .user-suspended .names span, .user-suspended .names span a {
+     color:var(--highlight) !important;
+}
+ .user-suspended .main-avatar {
+     filter: grayscale(1) brightness(0.2) contrast(0.5);
+}
+
+.user-suspended .user-title {
+    display: none !important;
+}
+
+.emoji-picker img.emoji {
+    width: 20px;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.nav-pills>li a.active, .nav-pills>li button.active {
+    background-color: var(--highlight);
+}
+
+/* Show more */
+
+#list-area .show-more {
+    position: static;
+}
+
+#list-area .show-more .alert {
+    background-color: var(--highlight);
+}
+
+/* Sidebar */
+
+ .sidebar-wrapper {
+     background-color: var(--new-lightgrey);
+ }
+
+ .sidebar-section-header.btn {
+     border: none;
+ }
+
+/* Select */
+
+ .select-kit .select-kit-row.is-selected.is-highlighted,
+ .select-kit .select-kit-row.is-highlighted,
+ .select-kit .select-kit-row.is-selected,
+ .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover,
+ .autocomplete ul li a.selected,
+ .discourse-no-touch .autocomplete ul li a:hover, 
+ .discourse-no-touch .autocomplete ul li a.btn-hover,
+ .popup-menu .btn:hover {
+    background: var(--danger);
+ }
+
+ /* Fix scattini */
+
+div.topic-post img.emoji[src*=discourse-ngi-emojis] {
+    aspect-ratio: initial !important;
+}
