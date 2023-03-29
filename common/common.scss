@@ -381,3 +381,9 @@ html {
 div.topic-post img.emoji[src*=discourse-ngi-emojis] {
     aspect-ratio: initial !important;
 }
+
+/* Hide email setting to prevent people with an obsession for getting spammed to completely obliterate our email provider credits, you fucking perverts */
+
+.control-group.pref-email-settings {
+    display: none !important;
+}
