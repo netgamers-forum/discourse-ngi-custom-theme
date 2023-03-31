@@ -189,6 +189,18 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
 }
 
 
+.topic-list-item {
+    .posters {
+        width: 200px;
+    }
+}
+
+.topic-list-data {
+    img.avatar {
+        width: 35px;
+        height: 35px;
+    }
+}
 
 @media (min-width: 1024px) {
     .lazyYT-container {
