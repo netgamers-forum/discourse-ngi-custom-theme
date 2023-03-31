@@ -487,6 +487,6 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
     display: none !important;
 }
 
-.btn:focus {
-   background: green !important;
+.popup-menu .btn:focus {
+   background: transparent !important;
 }
