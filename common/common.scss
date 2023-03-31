@@ -486,3 +486,7 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
 .control-group.pref-email-settings {
     display: none !important;
 }
+
+.popup-menu .btn:focus {
+   background: green !important;
+}
