@@ -486,3 +486,8 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
 .control-group.pref-email-settings {
     display: none !important;
 }
+
+/* Fix color focus button staff */
+.popup-menu .btn:focus {
+   background: transparent !important;
+}
