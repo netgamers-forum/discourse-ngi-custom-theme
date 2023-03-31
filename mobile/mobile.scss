@@ -1,83 +1,105 @@
 /* Fonts */
 /* Header */
- .d-header #site-logo {
-     height: 40px;
+.d-header #site-logo {
+    height: 40px;
 }
- .d-header .header-buttons {
-     margin-top: 0;
+
+.d-header .header-buttons {
+    margin-top: 0;
 }
- .custom-header-links .headerLink a {
-     font-size: var(--font-down-2) !important;
+
+.custom-header-links .headerLink a {
+    font-size: var(--font-down-2) !important;
 }
+
 /* Forum view */
- .category-list tbody tr, .category-list.with-topics .category {
-     background-color: var(--new-lightgrey);
-}
- .categories-list .category-list tbody .category {
-     width: auto;
-     margin-top: 10px;
-     border-right: 1px solid var(--primary-low) !important;
-     border-left: 2px solid;
-}
- .category-list.with-topics .category-list-item .category-description {
-     display: block;
-}
- .category-list-item.category tr:first-of-type {
-     padding-bottom: 10px;
-     display: block;
-}
- tr.category-topic-link {
-     display: none;
+.category-list tbody tr,
+.category-list.with-topics .category {
+    background-color: var(--new-lightgrey);
 }
 
- .categories-list .category-list td {
-     color: #9da6b3;
+.categories-list .category-list tbody .category {
+    width: auto;
+    margin-top: 10px;
+    border-right: 1px solid var(--primary-low) !important;
+    border-left: 2px solid;
 }
- .category-list .category-name {
-     font-weight: bold;
+
+.category-list.with-topics .category-list-item .category-description {
+    display: block;
 }
- .categories-list .category-list-item {
-     margin-bottom: 1em;
+
+.category-list-item.category tr:first-of-type {
+    padding-bottom: 10px;
+    display: block;
 }
+
+tr.category-topic-link {
+    display: none;
+}
+
+.categories-list .category-list td {
+    color: #9da6b3;
+}
+
+.category-list .category-name {
+    font-weight: bold;
+}
+
+.categories-list .category-list-item {
+    margin-bottom: 1em;
+}
+
 /* Thread view */
- nav.post-controls .actions button {
-     border: none;
-     font-size: var(--font-0);
-}
- .loading-container .topic-timer-info {
-     border: none;
-}
- .topic-post article {
-     padding: 0 0 8px;
-}
- #topic-title h1 a {
-     font-size: var(--font-up-1);
+nav.post-controls .actions button {
+    border: none;
+    font-size: var(--font-0);
 }
 
-.select-kit.combo-box.tag-drop .tag-drop-header, .select-kit.combo-box.category-drop .category-drop-header, .ios-device .btn{
+.loading-container .topic-timer-info {
+    border: none;
+}
+
+.topic-post article {
+    padding: 0 0 8px;
+}
+
+#topic-title h1 a {
+    font-size: var(--font-up-1);
+}
+
+.select-kit.combo-box.tag-drop .tag-drop-header,
+.select-kit.combo-box.category-drop .category-drop-header,
+.ios-device .btn {
     font-size: var(--font-down-2);
 }
 
- .topic-post {
-     padding: 0;
+.topic-post {
+    padding: 0;
 }
- .topic-post article, .container.posts {
-     border: none;
+
+.topic-post article,
+.container.posts {
+    border: none;
 }
- .topic-avatar {
-     padding-top: 10px;
-     padding-left: 10px;
-     padding-right: 0;
+
+.topic-avatar {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 0;
 }
- .topic-body {
-     padding: 10px;
+
+.topic-body {
+    padding: 10px;
 }
+
 /* Modal fix */
- .modal-inner-container {
-     --modal-max-width: 90vw;
+.modal-inner-container {
+    --modal-max-width: 90vw;
 }
- .gif-modal .gif-content {
-     max-width: none;
+
+.gif-modal .gif-content {
+    max-width: none;
 }
 
 .extra-info-wrapper .topic-link {
@@ -94,10 +116,10 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
 
 /* Fix zoom iOs */
 
-@media screen and (-webkit-min-device-pixel-ratio:0) { 
-  .ios-device textarea {
-    font-size: 16px !important;
-  }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .ios-device textarea {
+        font-size: 16px !important;
+    }
 }
 
 .ios-device .select-kit .select-kit-header {
