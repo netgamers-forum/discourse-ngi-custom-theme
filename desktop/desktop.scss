@@ -197,9 +197,17 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
 
 .topic-list-data {
     img.avatar {
-        width: 35px;
-        height: 35px;
+        width: 25px;
+        height: 25px;
     }
+}
+
+.topic-list .posters > a {
+    float:right;
+}
+
+.topic-list-body .posters.topic-list-data a:not(:first-child):not(:last-child){
+    display:none;
 }
 
 .discourse-reactions-counter {
