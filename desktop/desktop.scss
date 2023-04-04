@@ -202,12 +202,12 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
     }
 }
 
-/*.topic-list .posters.topic-list-data {
+.topic-list-item .posters.topic-list-data {
     display: flex;
     flex-direction: row;
     align-items: end;
     justify-content: flex-end;
-}*/
+}
 
 .topic-list-body .posters.topic-list-data a:not(:first-child):not(:last-child){
     display:none;
