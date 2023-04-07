@@ -219,6 +219,11 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
     }
 }
 
+.discourse-reactions-list .reactions .discourse-reactions-list-emoji .emoji {
+    width: unset;
+    height: unset;
+}
+
 .my-post {
     .discourse-reactions-double-button:hover {
         background-color: transparent !important;
