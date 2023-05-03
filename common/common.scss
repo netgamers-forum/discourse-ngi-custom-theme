@@ -491,3 +491,10 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
 .popup-menu .btn:focus {
    background: var(--danger-hover);
 }
+
+/* user network vis plugin */
+
+.user-network-vis svg g text {
+    fill: #fff;
+    text-shadow: 1px 1px darkred;
+}
