@@ -498,3 +498,8 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
     fill: #fff;
     text-shadow: 1px 1px darkred;
 }
+
+/* Nonsensical border around "more" in sidebar */
+.sidebar-more-section-links-details-summary {
+    border: 0px;
+}
