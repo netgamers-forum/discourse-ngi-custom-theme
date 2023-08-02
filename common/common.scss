@@ -507,8 +507,8 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
 
 /* Better contrast for deleted content */
 del {
-    color: var(--secondary);
-    background: var(--danger-low-mid);
+    color: var(--secondary) !important;
+    background: var(--danger-low-mid) !important;
 }
 
 .deleted {
