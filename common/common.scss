@@ -504,3 +504,9 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
 .sidebar-more-section-links-details-summary {
     border: 0px;
 }
+
+/* Better contrast for deleted content */
+.del {
+    color: var(--secondary);
+    background: var(--danger-low-mid);
+}
