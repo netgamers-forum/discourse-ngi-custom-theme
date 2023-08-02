@@ -511,6 +511,11 @@ del {
     background: var(--danger-low-mid) !important;
 }
 
+diff-del {
+    color: var(--secondary);
+    background: var(--danger-low-mid);
+}
+
 .deleted {
     color: var(--secondary);
     background: var(--danger-low-mid);
