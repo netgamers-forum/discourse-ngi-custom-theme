@@ -506,7 +506,17 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
 }
 
 /* Better contrast for deleted content */
-.del {
+del {
+    color: var(--secondary);
+    background: var(--danger-low-mid);
+}
+
+.deleted {
+    color: var(--secondary);
+    background: var(--danger-low-mid);
+}
+
+.-deleted {
     color: var(--secondary);
     background: var(--danger-low-mid);
 }
