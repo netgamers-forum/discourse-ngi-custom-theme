@@ -246,7 +246,7 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
     background: var(--danger);
     color: var(--primary-low);
   
-    .desktop-view .not-mobile-device .topic-avatar & {
+    .topic-avatar & {
         width: 24px;
         height: 24px;
         top: 35px;
@@ -255,7 +255,7 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
         font-size: var(--font-up-1);
     }
   
-    .desktop-view .not-mobile-device .user-card-avatar & {
+    .user-card-avatar & {
         width: 40px;
         height: 40px;
         top: -15px;
@@ -264,11 +264,11 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
         font-size: var(--font-up-4);
     }
   
-    .desktop-view .not-mobile-device .user-main .collapsed-info .user-profile-avatar & {
+    .user-main .collapsed-info .user-profile-avatar & {
         display: none;
     }
   
-    .desktop-view .not-mobile-device .user-main .user-profile-avatar & {
+    .user-main .user-profile-avatar & {
         width: 40px;
         height: 40px;
         top: -10px;
