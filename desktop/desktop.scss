@@ -238,18 +238,6 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
     width: 50%;
 }
 
-/* Fix for avatar silence flair for desktop */
-.topic-avatar .avatar-flair-silenced {
-    bottom: 110px !important;
-    right: -85px !important;
-}
-
-.avatar-flair-silenced {
-    position: relative !important;
-}
-
-/* End fix */
-
 @media (min-width: 1024px) {
     .lazyYT-container {
         padding: 0 !important;
