@@ -151,6 +151,11 @@ section.post-menu-area {
     padding: 0 10px;
 }
 
+// let's try to override the default discourse-reactions styles
+nav.post-controls .actions button {
+    padding: 8px 10px !important;
+}
+
 .post-actions .post-action {
     padding: 0 10px;
     font-family: var(--font-heritage) !important;
