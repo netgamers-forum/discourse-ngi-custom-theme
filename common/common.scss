@@ -1,12 +1,14 @@
 /* Sizing */
 
 :root {
+    --d-hover: #545454;
     --d-max-width: 1920px;
     --topic-body-width: 1470px;
     --font-heritage: 12px verdana, geneva, lucida, lucida grande, arial, helvetica, sans-serif;
     --font-family-classic: verdana, geneva, lucida, lucida grande, arial, helvetica, sans-serif;
     --font-family-alt: tahoma, verdana, geneva, lucida, lucida grande, arial, helvetica, sans-serif !important;
     --heading-font-family: verdana, geneva, lucida, lucida grande, arial, helvetica, sans-serif;
+    --highlight-bg: #bf1e2e80
 }
 
 /* Fonts */
@@ -489,4 +491,37 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
 
 .popup-menu .btn:focus {
    background: var(--danger-hover);
+}
+
+/* user network vis plugin */
+
+.user-network-vis svg g text {
+    fill: #fff;
+    text-shadow: 1px 1px darkred;
+}
+
+/* Nonsensical border around "more" in sidebar */
+.sidebar-more-section-links-details-summary {
+    border: 0px;
+}
+
+/* Better contrast for deleted content */
+del {
+    color: var(--secondary) !important;
+    background: var(--danger-low-mid) !important;
+}
+
+.diff-del {
+    color: var(--secondary) !important;
+    background: var(--danger-low-mid) !important;
+}
+
+.deleted {
+    color: var(--secondary);
+    background: var(--danger-low-mid);
+}
+
+.-deleted {
+    color: var(--secondary);
+    background: var(--danger-low-mid);
 }
