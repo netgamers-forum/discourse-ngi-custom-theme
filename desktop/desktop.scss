@@ -147,8 +147,13 @@ section.post-menu-area {
     font-family: var(--font-heritage) !important;
 }
 
-.discourse-reactions-actions:not(.custom-reaction-used):not(.btn-toggle-reaction-like) .discourse-reactions-counter {
+.discourse-reactions-actions:not(.custom-reaction-used) .discourse-reactions-counter {
     padding: 0 10px;
+}
+
+.btn-toggle-reaction-like
+{
+    padding-left: 0
 }
 
 .post-actions .post-action {
