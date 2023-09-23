@@ -152,9 +152,13 @@ section.post-menu-area {
 }
 
 // let's try to override the default discourse-reactions styles
-nav.post-controls .actions button {
+//nav.post-controls .actions button {
+//    padding: 8px 10px;
+//}
+.discourse-reactions-actions:not(.custom-reaction-used) .discourse-reactions-counter+.discourse-reactions-reaction-button button {
     padding: 8px 10px;
 }
+
 
 .post-actions .post-action {
     padding: 0 10px;
