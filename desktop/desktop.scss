@@ -152,25 +152,8 @@ section.post-menu-area {
 }
 
 // let's try to override the default discourse-reactions styles
-.discourse-reactions-reaction-button {
-    position: relative;
-    display: flex;
-    touch-action: pan-y;
-
-    .btn-toggle-reaction-like {
-        outline: none;
-        pointer-events: none;
-        background: none;
-        padding-left: 0 !important;
-    }
-
-    .btn-toggle-reaction-emoji {
-        outline: none;
-        pointer-events: none;
-        background: none;
-        width: 1em;
-        height: 1em;
-    }
+nav.post-controls .actions button {
+    padding: 8px 10px;
 }
 
 .post-actions .post-action {
