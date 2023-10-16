@@ -283,9 +283,15 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
     }
 }
 
-@media (min-width: 1475px) {
+@media (min-width: 1281px) {
     #reply-control:not(.fullscreen) {
         transform: unset !important;
+    }
+}
+
+@media (min-width: 1921px) {
+    #reply-control:not(.fullscreen) {
+        transform: translateX(calc((100vw - var(--d-max-width) - var(--d-sidebar-width)/0.5)/2 + 12em + 1rem))
     }
 }
 
