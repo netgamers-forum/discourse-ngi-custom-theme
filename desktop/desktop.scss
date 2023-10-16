@@ -282,7 +282,12 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
         font-size: var(--font-up-5);
     }
 }
-  
+
+@media (min-width: 1475px) {
+    #reply-control:not(.fullscreen) {
+        transform: unset !important;
+    }
+}
 
 @media (min-width: 1024px) {
     .lazyYT-container {
