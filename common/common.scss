@@ -525,3 +525,7 @@ del {
     color: var(--secondary);
     background: var(--danger-low-mid);
 }
+
+span[title*='This user is a moderator'] {
+  display: none !important;
+}
