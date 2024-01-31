@@ -283,6 +283,12 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
     }
 }
 
+@media screen and (min-width: 925px) {
+    .container.posts {
+        grid-template-columns: unset !important;
+    }
+}
+
 @media (min-width: 1024px) {
     .lazyYT-container {
         padding: 0 !important;
