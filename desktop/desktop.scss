@@ -285,6 +285,12 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
 
 .topic-map {
     padding-left: inherit !important;
+    background-color: var(--active-color) !important;
+    .topic-map__contents {
+        .topic-map__stats {
+            margin: 0.25em !important;
+        }
+    }
 }
 
 .topic-map__contents .topic-map__stats .fk-d-menu__trigger {
