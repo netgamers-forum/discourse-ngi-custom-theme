@@ -283,6 +283,14 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
     }
 }
 
+.topic-map {
+    padding-left: inherit !important;
+}
+
+.topic-map__contents .topic-map__stats .fk-d-menu__trigger {
+    padding: revert !important;
+}
+
 @media screen and (min-width: 925px) {
     .container.posts {
         grid-template-columns: unset !important;
