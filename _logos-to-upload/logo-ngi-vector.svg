@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Livello_2" viewBox="0 0 128 76">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: url(#Sfumatura_senza_nome_116);
+      }
+    </style>
+    <linearGradient id="Sfumatura_senza_nome_116" data-name="Sfumatura senza nome 116" x1="64" y1="76" x2="64" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="red"/>
+      <stop offset=".64" stop-color="#b30000"/>
+      <stop offset="1" stop-color="#e40000"/>
+    </linearGradient>
+  </defs>
+  <g id="Livello_1-2" data-name="Livello_1">
+    <path class="cls-3" d="M30.14,40.5s29.77,27.96,58.31,29.16c22.68.95,26.86-15.49,27.79-21.63.68-4.48.48-42.9-46.64-41.69C11.9,7.82,0,60.53,0,60.53v-1.11S8.93,0,71.66,0c44.47,0,56.34,28.49,56.34,45.52,0,8.25-4.8,30.48-34.54,30.48-34.46,0-63.32-34.61-63.32-34.61v-.89Z"/>
+    <g>
+      <g>
+        <polygon class="cls-2" points="60 58.64 60 24.83 53.31 24.83 53.31 58.64 45.43 58.64 45.43 17.36 67.88 17.36 67.88 58.64 60 58.64"/>
+        <path d="M67.38,17.86v40.29h-6.88V24.33h-7.69v33.81h-6.88V17.86h21.45M68.38,16.86h-23.45v42.29h8.88V25.33h5.69v33.81h8.88V16.86h0Z"/>
+      </g>
+      <polygon class="cls-1" points="73.66 17.4 73.66 58.71 96.78 58.71 96.78 37.85 85.04 37.85 86.04 43.58 89.21 43.58 89.21 49.84 81.91 49.84 81.91 25.85 88.17 25.85 88.17 32.11 96.78 32.11 96.78 17.4 73.66 17.4"/>
+      <rect class="cls-1" x="102.84" y="17.4" width="9.42" height="41.3"/>
+    </g>
+  </g>
+</svg>
