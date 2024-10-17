@@ -435,9 +435,15 @@ img.avatar {
 }
 
 .emoji-picker img.emoji {
-    width: 20px;
+    width: auto;
     height: auto;
     vertical-align: bottom;
+}
+
+img.emoji, img.emoji.only-emoji {
+  width: auto !important;
+  height: auto !important;
+  max-height: 24px;
 }
 
 .nav-pills>li a.active,
@@ -550,13 +556,17 @@ span[title*='This user is a moderator'] {
     color: var(--primary) !important;
 }
 
+
+.btn-flat .d-icon, .json-editor-btn-collapse .d-icon, .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-collapse .d-icon {
+  color: var(--primary);
+}
 .sidebar-section-link-wrapper .sidebar-section-link .sidebar-section-link-content-text {
     font-size: var(--font-down-1);
     color: var(--primary);
 }
 
 .sidebar-section-link-wrapper .sidebar-section-link.active {
-    background: transparent
+    background: rgba(0,0,0,0.2)
 }
 
 .sidebar-section-link-wrapper .sidebar-section-link .sidebar-section-link-suffix.icon.unread svg {
@@ -570,7 +580,8 @@ span[title*='This user is a moderator'] {
     font-size: var(--font-down-1);
 }
 
-.topic-list-body .badge-category:not(.--has-parent) {
+
+.category .topic-list-body .badge-category:not(.--has-parent) {
     display: none;
 }
 
@@ -578,13 +589,34 @@ span[title*='This user is a moderator'] {
     border: none;
 }
 
-.archetype-private_message .current-user-post .regular.contents, .archetype-private_message .regular.contents {
-    background: inherit;
-    border: none;
+
+.topic-map {
+  background: transparent;
 }
 
 .topic-map .topic-map__contents {
-    display: none;
+  padding-block: .5em;
+  flex-grow: 1;
+  background: var(--secondary-very-high);
+  margin-top: 0.8em;
+}
+
+.topic-map__contents .topic-map__stats .fk-d-menu__trigger {
+  border-color: transparent;
+}
+
+.topic-map .estimated-read-time {
+  color: var(--primary);
+  font-size: var(--font-down-1);
+}
+
+.topic-map .estimated-read-time span:first-child {
+  font-size: var(--font-down-3);
+  color: var(--primary);
+}
+.archetype-private_message .current-user-post .regular.contents, .archetype-private_message .regular.contents {
+    background: inherit;
+    border: none;
 }
 
 .archetype-private_message .topic-map .participants, .archetype-private_message .topic-map section {
@@ -622,6 +654,44 @@ span[title*='This user is a moderator'] {
 .discourse-no-touch .btn:hover, .discourse-no-touch .d-modal.json-schema-editor-modal .je-ready button:hover, .d-modal.json-schema-editor-modal .je-ready .discourse-no-touch button:hover, .discourse-no-touch .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add:hover, .d-modal.json-schema-editor-modal .je-ready .discourse-no-touch .json-editor-btn-add:hover, .discourse-no-touch .btn.btn-hover, .discourse-no-touch .d-modal.json-schema-editor-modal .je-ready button.btn-hover, .d-modal.json-schema-editor-modal .je-ready .discourse-no-touch button.btn-hover, .discourse-no-touch .d-modal.json-schema-editor-modal .je-ready .btn-hover.json-editor-btn-add, .d-modal.json-schema-editor-modal .je-ready .discourse-no-touch .btn-hover.json-editor-btn-add {
     background-color: var(--highlight-high);
     color: var(--primary) !important;
+    border-radius: 0;
+}
+
+.discourse-no-touch .discourse-reactions-actions:not(.has-reacted):not(.my-post) .discourse-reactions-double-button:hover, .discourse-no-touch .discourse-reactions-actions:not(.has-reacted):not(.my-post) .discourse-reactions-reaction-button:hover .reaction-button {
+  background-color: var(--highlight-high);
+}
+
+.discourse-no-touch .discourse-reactions-actions:not(.has-reacted):not(.my-post) .discourse-reactions-double-button:hover .d-icon, .discourse-no-touch .discourse-reactions-actions:not(.has-reacted):not(.my-post) .discourse-reactions-reaction-button:hover .reaction-button .d-icon {
+  color: var(--primary);
+}
+
+.no-touch .chat-message-container:hover, .no-touch .chat-transcript:hover, .no-touch .chat-message-container.-active, .no-touch .-active.chat-transcript {
+  background: var(--primary-low);
+}
+
+.chat-message .chat-message-reaction {
+  background: var(--secondary-very-high) !important;
+}
+
+.chat-message .chat-message-reaction {
+  border-radius: 0;
+}
+
+.user-menu .quick-access-panel li a, .user-menu .quick-access-panel li .profile-tab-btn, .user-notifications-list li a, .user-notifications-list li .profile-tab-btn {
+  font-family: var(--font-family-alt);
+  font-weight: bold;
+  font-size: var(--font-down-1);
+  text-transform: Capitalize;
+}
+
+.empty-state .empty-state-title {
+  font-size: var(--font-down-1);
+}
+
+.empty-state .empty-state-body {
+  font-size: var(--font-down-2);
+  font-family: var(--font-family-alt);
+  font-weight: bold;
 }
 
 .header-sidebar-toggle button {
