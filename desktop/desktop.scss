@@ -322,26 +322,3 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
         transform: translateX(calc((100vw - var(--d-max-width) - var(--d-sidebar-width)/0.5)/2 + 12em + 1rem)) !important;
     }
 }
-
-
-/* Fix per Discourse 3.4.0 */
-
-.has-sidebar-page #reply-control {
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
-.onebox.video-onebox, .video-container {
-    position: static;
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    padding: 0;
-    background-color: transparent;
-}
-
-.onebox.video-onebox video, .video-container video {
-    position: static;
-    width: auto;
-    height: auto;
-}
