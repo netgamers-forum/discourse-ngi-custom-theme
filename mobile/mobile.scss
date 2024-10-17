@@ -129,3 +129,17 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
 .discourse-reactions-reaction-button {
     margin-right: 1em;
 }
+
+/* Fix Discourse 3.4.0 */
+
+.list-controls .nav-pills .list-control-toggle-link-trigger {
+       font-size: var(--font-down-2);
+}
+
+.d-header-icons li {
+    order: 10;
+}
+
+.hamburger-dropdown {
+    order: 1 !important;
+}
