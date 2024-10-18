@@ -556,10 +556,10 @@ span[title*='This user is a moderator'] {
     color: var(--primary) !important;
 }
 
+
 .btn-flat .d-icon, .json-editor-btn-collapse .d-icon, .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-collapse .d-icon {
   color: var(--primary);
 }
-
 .sidebar-section-link-wrapper .sidebar-section-link .sidebar-section-link-content-text {
     font-size: var(--font-down-1);
     color: var(--primary);
@@ -580,6 +580,7 @@ span[title*='This user is a moderator'] {
     font-size: var(--font-down-1);
 }
 
+
 .category .topic-list-body .badge-category:not(.--has-parent) {
     display: none;
 }
@@ -587,6 +588,7 @@ span[title*='This user is a moderator'] {
 .chat-composer-dropdown__trigger-btn {
     border: none;
 }
+
 
 .topic-map {
   background: transparent;
@@ -612,7 +614,6 @@ span[title*='This user is a moderator'] {
   font-size: var(--font-down-3);
   color: var(--primary);
 }
-
 .archetype-private_message .current-user-post .regular.contents, .archetype-private_message .regular.contents {
     background: inherit;
     border: none;
