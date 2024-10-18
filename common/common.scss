@@ -700,3 +700,27 @@ span[title*='This user is a moderator'] {
 .d-header-icons {
     align-items: center;
 }
+
+.user-menu .quick-access-panel li a .item-description {
+      color: var(--primary-600);
+}
+
+#topic-footer-buttons .topic-notifications-button .reason .text, .more-topics__container .more-topics__list-title, .more-topics__container .more-topics__browse-more, .topic-timer-info .topic-timer-heading, .alert.alert-info, #whos-online span, .category-list .topics, .container.posts .timeline-container, #topic-footer-buttons .pinned-button .reason .text, #topic-footer-buttons .topic-notifications-button .reason .text, .select-kit .select-kit-row, #topic-footer-buttons .topic-notifications-button .reason .text, .more-topics__container .more-topics__list-title, .more-topics__container .more-topics__browse-more, .topic-timer-info .topic-timer-heading {
+      font-size: var(--font-down-2);
+    color: var(--primary-600);
+    font-family: var(--font-family-alt) !important;
+    text-transform: initial;
+    margin-bottom: .6em;
+}
+
+.select-kit.combo-box .select-kit-header {
+    border: 1px solid #1f242a;
+    background-color: var(--primary-low);
+}
+
+.topic-map .topic-map__contents {
+      margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}

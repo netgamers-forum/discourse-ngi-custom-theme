@@ -143,3 +143,35 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
 .hamburger-dropdown {
     order: 1 !important;
 }
+
+#topic-title h1 a {
+    font-size: var(--font-down-1);
+}
+
+.discourse-reactions-reaction-button {
+    margin-right: auto;
+}
+
+.list-controls .nav-pills .list-control-toggle-link-trigger {
+    padding: .5em;
+    background: var(--primary-low);
+}
+
+.topic-list .num.activity a span.relative-date {
+    font-size: var(--font-up-2);
+}
+
+.topic-map {
+    border-bottom: 0;
+}
+
+.topic-map .topic-map__contents {
+    margin-top: 0.8em;
+    margin-bottom: 1.5em;
+    padding-left: .8em;
+    padding-right: .8em;
+}
+
+#topic-footer-buttons .select-kit.single-select.dropdown-select-box {
+    margin-bottom: 0.5em;
+}
