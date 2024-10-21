@@ -561,7 +561,6 @@ span[title*='This user is a moderator'] {
   color: var(--primary);
 }
 .sidebar-section-link-wrapper .sidebar-section-link .sidebar-section-link-content-text {
-    font-size: var(--font-down-1);
     color: var(--primary);
 }
 
@@ -707,7 +706,7 @@ span[title*='This user is a moderator'] {
 }
 
 #topic-footer-buttons .topic-notifications-button .reason .text, .more-topics__container .more-topics__list-title, .more-topics__container .more-topics__browse-more, .topic-timer-info .topic-timer-heading, .alert.alert-info, #whos-online span, .category-list .topics, .container.posts .timeline-container, #topic-footer-buttons .pinned-button .reason .text, #topic-footer-buttons .topic-notifications-button .reason .text, .select-kit .select-kit-row, #topic-footer-buttons .topic-notifications-button .reason .text, .more-topics__container .more-topics__list-title, .more-topics__container .more-topics__browse-more, .topic-timer-info .topic-timer-heading {
-      font-size: var(--font-down-2);
+      font-size: var(--font-down-1);
     color: var(--primary-600);
     font-family: var(--font-family-alt) !important;
     text-transform: initial;
