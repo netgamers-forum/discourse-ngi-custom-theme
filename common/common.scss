@@ -724,3 +724,38 @@ span[title*='This user is a moderator'] {
     padding-left: 0.8em;
     padding-right: 0.8em;
 }
+
+.login-right-side .d-button-label {
+    color: var(--secondary);
+}
+
+.login-right-side .d-button-label:hover {
+    color: var(--primary);
+}
+
+.login-welcome-header .waving-hand {
+    opacity: 0;
+}
+
+.login-welcome-header .login-title:after {
+    display: inline-block;
+    content: ' ';
+    width: 15px;
+    height: 15px;    
+  margin-left: 20px;
+  margin-bottom: 2px;
+    background-size: cover;
+    background-image: url('/plugins/discourse-ngi-emojis/images/asd2.gif');
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+ */
+    image-rendering: -moz-crisp-edges;          /* Firefox */
+    image-rendering: -o-crisp-edges;            /* Opera */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated;                 /* Chrome */
+    image-rendering: optimizeSpeed;             /* stop smoothing, speeden up instead */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed */
+
+}
