@@ -618,9 +618,26 @@ span[title*='This user is a moderator'] {
     border: none;
 }
 
+.archetype-private_message .topic-map {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .archetype-private_message .topic-map .participants, .archetype-private_message .topic-map section {
     margin-bottom: 0;
     padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent;
+}
+
+.archetype-private_message .moderator .regular.contents {
+    background: var(--highlight);
+    border-color: var(--highlight);
+}
+
+.archetype-private_message .moderator .post-menu-area {
+    padding-bottom: .5em;
 }
 
 .topic-meta-data .post-infos {
@@ -742,8 +759,8 @@ span[title*='This user is a moderator'] {
     content: ' ';
     width: 15px;
     height: 15px;    
-  margin-left: 20px;
-  margin-bottom: 2px;
+    margin-left: 20px;
+    margin-bottom: 2px;
     background-size: cover;
     background-image: url('/plugins/discourse-ngi-emojis/images/asd2.gif');
     -ms-transform: scale(2);
@@ -757,5 +774,8 @@ span[title*='This user is a moderator'] {
     image-rendering: pixelated;                 /* Chrome */
     image-rendering: optimizeSpeed;             /* stop smoothing, speeden up instead */
     image-rendering: optimize-contrast;         /* CSS3 Proposed */
+}
 
+.chat-message img.emoji, .chat-message img.emoji.only-emoji {
+    max-height: 24px;
 }
