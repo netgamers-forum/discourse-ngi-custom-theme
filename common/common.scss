@@ -618,9 +618,26 @@ span[title*='This user is a moderator'] {
     border: none;
 }
 
+.archetype-private_message .topic-map {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .archetype-private_message .topic-map .participants, .archetype-private_message .topic-map section {
     margin-bottom: 0;
     padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent;
+}
+
+.archetype-private_message .moderator .regular.contents {
+    background: var(--highlight);
+    border-color: var(--highlight);
+}
+
+.archetype-private_message .moderator .post-menu-area {
+    padding-bottom: .5em;
 }
 
 .topic-meta-data .post-infos {
