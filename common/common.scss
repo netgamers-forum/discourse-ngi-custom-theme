@@ -776,3 +776,7 @@ span[title*='This user is a moderator'] {
     image-rendering: optimize-contrast;         /* CSS3 Proposed */
 
 }
+
+.chat-message p img {
+    max-height: 24px;
+}
