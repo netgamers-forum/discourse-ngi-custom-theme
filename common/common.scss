@@ -777,6 +777,6 @@ span[title*='This user is a moderator'] {
 
 }
 
-.chat-message p img {
+.chat-message img.emoji, .chat-message img.emoji.only-emoji {
     max-height: 24px;
 }
