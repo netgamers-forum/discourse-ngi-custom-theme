@@ -759,8 +759,8 @@ span[title*='This user is a moderator'] {
     content: ' ';
     width: 15px;
     height: 15px;    
-  margin-left: 20px;
-  margin-bottom: 2px;
+    margin-left: 20px;
+    margin-bottom: 2px;
     background-size: cover;
     background-image: url('/plugins/discourse-ngi-emojis/images/asd2.gif');
     -ms-transform: scale(2);
@@ -774,7 +774,6 @@ span[title*='This user is a moderator'] {
     image-rendering: pixelated;                 /* Chrome */
     image-rendering: optimizeSpeed;             /* stop smoothing, speeden up instead */
     image-rendering: optimize-contrast;         /* CSS3 Proposed */
-
 }
 
 .chat-message img.emoji, .chat-message img.emoji.only-emoji {
