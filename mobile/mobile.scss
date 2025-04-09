@@ -175,3 +175,7 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
 #topic-footer-buttons .select-kit.single-select.dropdown-select-box {
     margin-bottom: 0.5em;
 }
+
+.contents img.emoji {
+    max-height: 70px;
+}

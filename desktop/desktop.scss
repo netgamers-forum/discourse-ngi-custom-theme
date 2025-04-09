@@ -345,6 +345,6 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
     height: auto;
 }
 
-.contents img.emoji {
+.contents img.emoji[src*=discourse-ngi-emojis] {
     max-height: 80px;
 }
