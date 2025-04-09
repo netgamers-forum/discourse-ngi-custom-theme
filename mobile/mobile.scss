@@ -176,6 +176,6 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
     margin-bottom: 0.5em;
 }
 
-.contents img.emoji {
+.contents img.emoji[src*=discourse-ngi-emojis] {
     max-height: 70px;
 }
