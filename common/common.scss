@@ -9,7 +9,9 @@
     --font-family-classic: verdana, geneva, lucida, lucida grande, arial, helvetica, sans-serif;
     --font-family-alt: tahoma, verdana, geneva, lucida, lucida grande, arial, helvetica, sans-serif !important;
     --heading-font-family: verdana, geneva, lucida, lucida grande, arial, helvetica, sans-serif;
-    --highlight-bg: #bf1e2e80
+    --highlight-bg: #bf1e2e80;
+    --topic-list-item-background-color--visited: var(--new-lightgrey);
+    --topic-list-item-background-color: var(--new-lightgrey);
 }
 
 /* Fonts */
@@ -778,13 +780,6 @@ span[title*='This user is a moderator'] {
 
 .chat-message img.emoji, .chat-message img.emoji.only-emoji {
     max-height: 24px;
-}
-
-/* Changes for the 3.6.0 root*/
-
-.topic-list-item {
-    topic-list-item-background-color--visited: var(--new-lightgrey);
-    topic-list-item-background-color: var(--new-lightgrey);
 }
 
 /* Restoring the old btn-flat class */
