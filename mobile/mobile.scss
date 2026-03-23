@@ -18,9 +18,13 @@
     background-color: var(--new-lightgrey);
 }
 
+.category-list-item .subcategories-list {
+    font-size: var(--font-down-2);
+}
+
 .categories-list .category-list tbody .category {
     width: auto;
-    margin-top: 10px;
+    margin-top: 0px;
     border-right: 1px solid var(--primary-low) !important;
     border-left: 2px solid;
 }
